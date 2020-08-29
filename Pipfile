@@ -10,6 +10,7 @@ django = "*"
 pillow = "*"
 django-environ = "*"
 celery = "*"
+flower = "*"
 
 [requires]
 python_version = "3.8"
