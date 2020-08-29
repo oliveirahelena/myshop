@@ -12,6 +12,8 @@ django-environ = "*"
 celery = "*"
 flower = "*"
 braintree = "*"
+weasyprint = "*"
+setuptools = "*"
 
 [requires]
 python_version = "3.8"
