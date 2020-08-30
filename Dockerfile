@@ -3,7 +3,7 @@ ENV PYTHONUNBUFFERED 1
 RUN mkdir /app
 WORKDIR /app
 # Installing OS Dependencies
-RUN apt-get update && apt-get upgrade -y && apt-get install -y libsqlite3-dev
+RUN apt-get update && apt-get upgrade -y && apt-get install -y libsqlite3-dev gettext
 RUN pip install pipenv
 COPY . /app
 RUN pipenv lock --requirements > requirements.txt

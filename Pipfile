@@ -14,6 +14,7 @@ flower = "*"
 braintree = "*"
 weasyprint = "*"
 setuptools = "*"
+django-rosetta = "*"
 
 [requires]
 python_version = "3.8"
